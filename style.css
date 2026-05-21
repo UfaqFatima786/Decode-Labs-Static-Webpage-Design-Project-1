@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+
+    background: linear-gradient(135deg, #b1aeae, #272222, #000000);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    right: 100px;
+    border-radius: 5px;
+    border: #fff solid 1px;
+}
+.navUl {
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+}
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+.gym-para{
+    
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+
+}
+.heading1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
+
+.heading1:hover {
+    font-size: 55px;
+    font-weight: 700;
+    color: #b1a9a9;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    transition: 0.9s;
+    cursor: pointer;
+    animation-name: __flash;
+    animation: slideFade 0.5s ease forwards;
+
+}
+.hero-section {
+    background: black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.hero-section:hover {
+    background: rgb(0, 0, 0);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.img-gym {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    width: 550px;
+    border-radius: 50%;
+    border: 2px solid #ad9d9d;
+}
+
+.img-gym:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.9s;
+    cursor: pointer;
+    animation-name: __flash;
+    animation: slideFade 0.5s ease forwards;
+}
+.content-div {
+
+    position: relative;
+    background-color: #000000;
+    border-radius: 12px;
+    /* margin-top: 390px !important; */
+    margin-top: -200px !important;
+    margin-left: 250px !important;
+    width: 75% !important;
+    border-radius: 20px;
+    border: 2px solid rgb(36, 41, 36);
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.content-div:hover {
+    border: 2px solid rgb(0, 0, 0);
+    color: #ffffff;
+    background-color: #2e2928;
+    animation-name: zoom-In;
+    animation-duration: 2s;
+}
+.mid-img {
+    height: 500px;
+    width: 650px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+}
