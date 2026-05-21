@@ -15,8 +15,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 60px;
     /* position: absolute; */
     right: 100px;
     border-radius: 5px;
@@ -32,6 +32,9 @@ body {
     font-size: 18px;
     margin-right: 20px;
     transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #e7e7e7;
 }
 .gym-para{
     
@@ -118,8 +121,224 @@ body {
 }
 .mid-img {
     height: 500px;
-    width: 650px;
+    width: 1000px;
     margin-left: 50px;
     border-radius: 20px;
     border: 2px solid #ffffff;
+}
+.trainers{
+    background: black;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.trainers:hover {
+    background: rgb(0, 0, 0);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+
+}
+.trainers .card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #111;
+    color: white;
+}
+
+.trainers .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.4);
+}
+
+.trainers .card img {
+    height: 300px;
+    object-fit: cover;
+    transition: 0.4s ease;
+}
+
+.trainers .card:hover img {
+    transform: scale(1.05);
+}
+
+.trainers .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.trainers .card-title {
+    color: #ff3c3c;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.trainers .card-body h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.trainers .card-text {
+    font-size: 16px;
+    color: #d1d1d1;
+    line-height: 1.6;
+}
+
+/* Optional Button Styling */
+.trainer-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 22px;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.trainer-btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.membership-section {
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    color: white;
+}
+
+.plan-subtitle {
+    color: red;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.plan-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.plan-para {
+    color: #cfcfcf;
+    max-width: 600px;
+    margin: auto;
+}
+
+.plan-card {
+    background: linear-gradient(145deg, #1f1f1f, #111);
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.plan-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.4);
+}
+
+.plan-card h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.plan-card h1 {
+    font-size: 60px;
+    color: red;
+    margin-bottom: 0;
+}
+
+.plan-card span {
+    color: #bbb;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-card ul li {
+    margin: 15px 0;
+    font-size: 17px;
+    color: #e2e2e2;
+}
+
+.plan-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.plan-btn:hover {
+    background: white;
+    color: red;
+}
+
+/* Premium Highlight */
+
+.premium-plan {
+    border: 3px solid red;
+    transform: scale(1.05);
+    background: linear-gradient(to bottom right, #2b0000, #111);
+}
+
+.premium-plan:hover {
+    transform: scale(1.08);
+}
+
+.premium-badge {
+    position: absolute;
+    top: 15px;
+    right: -40px;
+    background: red;
+    color: white;
+    padding: 8px 40px;
+    transform: rotate(45deg);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Standard Plan */
+
+.standard-plan {
+    border: 2px solid #444;
+}
+
+@media(max-width:768px) {
+    .trainers .card img {
+        height: 250px;
+    }
+
+    .trainers .card-body h3 {
+        font-size: 22px;
+    }
+    .plan-title {
+        font-size: 35px;
+    }
+
+    .plan-card {
+        padding: 30px 20px;
+    }
+
+    .premium-plan {
+        transform: scale(1);
+    }
 }
