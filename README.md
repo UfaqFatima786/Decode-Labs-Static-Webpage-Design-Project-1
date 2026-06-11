@@ -54,21 +54,15 @@ Decode-Labs-Static-Webpage-Design-Project-1/
 ```
 
 ---
+🚀 Live Demo
 
-# 🚀 How to Run the Project
+View the project live here:
 
-1. Clone the repository:
+🔗 https://fit-zone-gym-internship-task.netlify.app/
 
-```bash
-git clone https://github.com/UfaqFatima786/Decode-Labs-Static-Webpage-Design-Project-1.git
-```
-
-2. Open the project folder.
-
-3. Run the `index.html` file in your browser.
-
----
-
+Simply open the link in your browser to explore the website.
+.
+.
 # 🎯 Learning Outcomes
 
 * Understanding HTML Structure
@@ -86,18 +80,7 @@ git clone https://github.com/UfaqFatima786/Decode-Labs-Static-Webpage-Design-Pro
 * Improve Accessibility
 * Add More Responsive Components
 * Enhance User Experience
-
----
-
-# 📸 Preview
-
-Add your project screenshot here.
-
-```md
-![Project Preview](images/preview.png)
-```
-
----
+.
 
 # 🤝 Contributing
 
