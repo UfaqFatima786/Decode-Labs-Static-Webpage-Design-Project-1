@@ -1,4 +1,3 @@
-# Decode Labs Static Webpage Design Project 1
 
 A responsive static webpage created using HTML and CSS as part of the Decode Labs Internship Task.
 
